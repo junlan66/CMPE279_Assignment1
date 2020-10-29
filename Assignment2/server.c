@@ -60,6 +60,7 @@ int main(int argc, char const *argv[])
         send(new_socket , hello , strlen(hello) , 0 );
         printf("Hello message sent\n");
     }
+    execv("/Users/junlanlu/Documents/CMPE209/CMPE279_Assignment1/Assignment2/server2.c", NULL );
 
     return 0;
 }
